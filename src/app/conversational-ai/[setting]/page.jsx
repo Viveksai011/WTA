@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { settingsData } from '@/lib/settingdata'; // Default import
+import { settingsData } from '@/lib/settingdata'; 
 
 import Secretdrawer from '@/component/setting/secretdrawer';
 import Webhookdrawer from '@/component/setting/webhookdrawer';

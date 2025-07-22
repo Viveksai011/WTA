@@ -83,7 +83,6 @@
     @apply w-full justify-center;
   }
 
-  /* High contrast utility classes */
   .text-high-contrast {
     @apply text-gray-900 dark:text-gray-50;
   }
@@ -92,13 +91,11 @@
     @apply border-gray-400 dark:border-gray-500;
   }
 
-  /* Accessibility focus styles */
   .focus-visible:focus-visible {
     @apply outline-2 outline-offset-2 outline-blue-600;
   }
 }
 
-/* Skip to content link for keyboard users */
 .skip-to-content {
   @apply sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-white focus:text-black focus:outline focus:outline-2 focus:outline-blue-600;
 }
