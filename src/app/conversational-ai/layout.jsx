@@ -11,8 +11,8 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: 'PureCode AI - Generate UI Using AI',
-  description: 'Speed up your development by 50% - Use your codebase as context.',
+  title: 'Eleven Labs - Conversational AI Solutions',
+  description: 'Enhance communication with AI-powered solutions for smarter customer interactions.',
   metadataBase: new URL(getSiteUrl()),
 };
 
