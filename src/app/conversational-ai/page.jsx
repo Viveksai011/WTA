@@ -1,4 +1,4 @@
-import Conversationalmain from "@/component/conversationalmain";
+import Conversationalmain from '@/component/conversationalmain';
 
 export default function Dashboard() {
   return <Conversationalmain />;
