@@ -23,12 +23,12 @@ export const sidebarData = {
         { icon: Users, label: 'Agents' },
         { icon: BookOpen, label: 'Knowledge Base' },
         { icon: Wrench, label: 'Tools', badge: 'New' },
-        { icon: UsersRound, label: 'Voices' },
+        { icon: UsersRound, label: 'Voices', href: '/conversational-ai/voice-lab' },
       ],
     },
     {
       title: 'Evaluate',
-      items: [{ icon: Clock, label: 'Conversations' }],
+      items: [{ icon: Clock, label: 'Conversations', href: '/conversational-ai/history' }],
     },
     {
       title: 'Integrations',

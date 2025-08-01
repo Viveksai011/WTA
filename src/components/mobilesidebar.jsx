@@ -8,12 +8,10 @@ import { cn } from '@/lib/utils';
 export function Mobilesidebar({ className }) {
   return (
     <div className={cn('flex h-full w-full flex-col bg-white border-r', className)}>
-     
       <div className="flex items-center justify-between p-4 border-b">
         <h1 className="text-lg font-semibold text-gray-900">IIElevenLabs</h1>
       </div>
 
-     
       <div className="flex-1 px-3 py-4 space-y-4 overflow-y-auto">
         <div className="space-y-1">
           <TeamSwitcher />
@@ -69,7 +67,6 @@ export function Mobilesidebar({ className }) {
         </div>
       </div>
 
-      
       <div className="p-3 space-y-3 border-t">
         <div className="space-y-2">
           {sidebarData.footer.map((item, index) => (

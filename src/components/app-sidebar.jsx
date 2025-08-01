@@ -53,7 +53,7 @@ export function AppSidebar() {
                 {section.items.map((item, index) => (
                   <Link
                     key={index}
-                    href="#"
+                    href={item.href || '#'}
                     className="w-full flex items-center justify-between h-9 px-3 text-gray-700 hover:bg-gray-100 rounded-md
                               group-data-[collapsible=icon]:collapsed-icon-button"
                   >
@@ -79,7 +79,7 @@ export function AppSidebar() {
 
           <div className="mt-5 group-data-[collapsible=icon]:mt-0 w-full group-data-[collapsible=icon]:flex group-data-[collapsible=icon]:justify-center">
             <Link
-              href="conversational-ai/settings"
+              href="/conversational-ai/settings"
               className="w-full flex gap-2 justify-start items-center rounded-lg mt-5 h-9 px-3 text-gray-700 hover:bg-gray-100 
                          group-data-[collapsible=icon]:collapsed-icon-button"
             >
