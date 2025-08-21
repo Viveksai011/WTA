@@ -20,10 +20,7 @@ export default function RootLayout({ children }) {
         <meta name="description" content={metadata.description} />
       </head>
       <body className={`${inter.variable} font-sans antialiased`}>
-        <a href="#main-content" className="skip-to-content">
-          Skip to content
-        </a>
-        <main id="main-content">{children}</main>
+        <main>{children}</main>
       </body>
     </html>
   );

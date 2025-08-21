@@ -53,8 +53,6 @@ const Conversationalcard = () => {
                 selectedCard === index ? 'border-2 border-black' : ''
               }`}
               onClick={() => handleCardClick(index)}
-              aria-label={`${card.title}: ${card.value}${card.unit || ''}`}
-              data-selected={selectedCard === index ? 'true' : 'false'}
               tabIndex={0}
             >
               {selectedCard === index && (
